@@ -1,0 +1,69 @@
+/* basic stuff */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.7em;
+	font-style:normal;
+	line-height:normal;
+	font-weight:normal;
+	font-variant:normal;
+}
+
+div.log, div.buttons {
+	margin:0 auto;
+	width:760px;
+	border:1px solid #aaaaaa;
+}
+
+#display {
+	margin:0 auto;
+	width:760px;
+	height:640px;
+	border:1px solid #aaaaaa;
+	overflow:hidden;
+	position:relative;
+	user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+
+#pos {
+	margin:4px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	color:white;
+	text-shadow:0 0 3px black;
+}
+
+#fps {
+	margin:4px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	color:white;
+	text-shadow:0 0 2px black;
+}
+
+#buffer1, #buffer2 {
+	background:black;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+div.log {
+	height:150px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	font-size:smaller;
+}
+
+#log th, #log td {
+	vertical-align:top;
+	text-align:left;
+}
+
+.red {
+	color:#ff0000 !important;
+}
