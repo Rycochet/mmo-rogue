@@ -1,8 +1,15 @@
-#summary Basic game design ideas.
+NOTE: No license - copyright withheld until changed (feel free to clone etc, just don't release or allow generic public access) - I am in favour of an OS license on the client code at the least...
+
+# Basic game design ideas.
 
 ### Introduction
 
-This is how the game should react and interact. 
+- The display uses DHTML (hence browser based) and heavy Ajax use to interact with the server.
+- All dungeons are instanced so only you and your party are together, however towns are "open" to all.
+- Display is isometric with a one-button interface.
+- Server uses PHP + MySQL.
+- Dungeons are created once and stored for later instancing.
+- Mobs and items are generated at instance time, only generic types and levels are generated at creation.
 
 ### User Interface
 
